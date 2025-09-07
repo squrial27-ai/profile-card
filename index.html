@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile card</title>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .cont {
+            height: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: grey;
+            border: 2px solid yellow;
+            border-radius: 7px;
+            text-align: center;
+            padding: 100px 100px;
+        }
+
+        .box:hover {
+            transform: scale(1.05);
+        }
+
+        #p {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            border: 2px solid yellow;
+        }
+
+        button {
+            padding: 10px;
+            background-color: blueviolet;
+            color: white;
+            height: 50px;
+            border: 2px solid white;
+            border-radius: 20px;
+           
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .logo img {
+            border-radius: 50%;
+            height: 45px;
+            width: 45px;
+
+
+            border: 2px solid yellow;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="cont">
+        <div class="box">
+            <h2>Sanskriti Shrivastava</h2>
+            <img src="image/profilephoto.png" alt="profile photo" id="p">
+            <div class="button">
+            <button>View Portfolio</button>
+            <button>Major Project</button>
+            </div>
+            <div class="logo">
+                <img src="image/linkden.png" alt="linkdin" id="l">
+                <img src="image/github.png" alt="github" id="g">
+                <img src="image/xcom.png" alt="X com" id="x">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
